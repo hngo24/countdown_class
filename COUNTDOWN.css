@@ -1,0 +1,37 @@
+@font-face {
+	font-family: loosNormalMedium;
+	src: url("../countdown_class/COMPACT.tff");
+}
+body {
+    margin: 0;
+    font-family: "Loos Normal Medium";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #19323c;
+	overflow: hidden;
+}
+
+.countdownSTYLE span {
+    display: inline-block;
+    margin: 1vw;
+}
+
+.countdownSTYLE span.value {
+    font-family: loosNormalMedium;
+    font-size: 10vw;
+    color: #cacdbe;
+    display: block;
+	width: 17vw;
+	text-align: center;
+}
+
+.countdownSTYLE span.label {
+    font-family: loosNormalMedium;
+    font-size: 2vw;
+    color: #cacdbe;
+    display: block;
+    margin:auto;
+	text-align: center;/* Adjust this value as needed to create space between the label and value */
+}
